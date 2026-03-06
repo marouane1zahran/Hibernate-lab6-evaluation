@@ -1,0 +1,12 @@
+package ma.projet.beans;
+
+import javax.persistence.Entity;
+import java.util.Date;
+
+@Entity
+public class Homme extends Personne {
+    public Homme() {}
+    public Homme(String nom, String prenom, String telephone, String adresse, Date dateNaissance) {
+        super(nom, prenom, telephone, adresse, dateNaissance);
+    }
+}
